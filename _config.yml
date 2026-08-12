@@ -1,0 +1,41 @@
+title: LCD 101 — Introduction to Language
+description: Course site for LCD 101, Queens College, CUNY — Fall 2026
+theme: just-the-docs
+
+# --- GitHub Pages project-site settings ---
+# If this repo is published at https://<user>.github.io/101F26, keep baseurl as-is.
+# If it's published at a custom domain or a user/org root site, set baseurl: ""
+url: ""
+baseurl: "/101F26"
+
+permalink: pretty
+
+# Aux nav links shown top-right — update <username> once the repo is pushed
+aux_links:
+  "LCD 101 on GitHub":
+    - "https://github.com/<username>/101F26"
+
+nav_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2026 Han Li. LCD 101, Queens College, CUNY."
+
+color_scheme: light
+search_enabled: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - Teaching_materials_101/
+  - "*.pdf"
+  - "*.docx"
+  - syllabus_26_files/
+  - syllabus_26.html
+  - syllabus_26.md
+  - README.md

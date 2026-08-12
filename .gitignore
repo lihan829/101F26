@@ -1,0 +1,15 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+.DS_Store
+
+# Not part of the website (yet) — large teaching-materials archive, a
+# stray browser export, and an unrelated Stony Brook PDF (wrong school —
+# kept on disk but not tracked). Revisit if/when the site scope grows.
+Teaching_materials_101/
+syllabus_26.html
+syllabus_26_files/
+LIN101_Syllabus_Spring 2026v5.pdf
