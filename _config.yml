@@ -3,17 +3,14 @@ description: Course site for LCD 101, Queens College, CUNY — Fall 2026
 theme: just-the-docs
 
 # --- GitHub Pages project-site settings ---
-# If this repo is published at https://<user>.github.io/101F26, keep baseurl as-is.
-# If it's published at a custom domain or a user/org root site, set baseurl: ""
-url: ""
+url: "https://lihan829.github.io"
 baseurl: "/101F26"
 
 permalink: pretty
 
-# Aux nav links shown top-right — update <username> once the repo is pushed
 aux_links:
   "LCD 101 on GitHub":
-    - "https://github.com/<username>/101F26"
+    - "https://github.com/lihan829/101F26"
 
 nav_enabled: true
 back_to_top: true
